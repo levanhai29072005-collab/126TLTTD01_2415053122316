@@ -52,10 +52,39 @@
             android:layout_height="wrap_content"
             android:hint="Nhập Điểm CK(0..10)"
             android:inputType="numberDecimal"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/btnKiemTra"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginEnd="8dp"
+        android:text="Kiểm Tra"/>
+    <Button
+        android:id="@+id/btnXoa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="#757575"
+        android:text="Xóa"/>
+</LinearLayout>
+        <TextView
+            android:id="@+id/tvKetQua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="F5F5F5"
+            android:padding="16dp"
+            android:text="Chưa có kết quả"
+            android:textSize="15sp"
+            android:lineSpacingExtra="4dp"/>
 
-
-
-"
     </LinearLayout>
+</ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
